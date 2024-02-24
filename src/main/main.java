@@ -3,6 +3,7 @@ package main;
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
 import codewars_0223.sol.Vowels;
+import codewars_0224.sol.Kata2;
 
 public class main {
 
@@ -11,6 +12,7 @@ public class main {
 		Solution sol = new Solution();	//0222
 		System.out.println(sol.Solution(10));
 		System.out.println(Vowels.getCount("abcoudefg "));	//0223
+		System.out.println(Kata2.numberToString(123));
 	}
 
 }
