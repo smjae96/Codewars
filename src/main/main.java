@@ -5,6 +5,7 @@ import codewars_0222.sol.Solution;
 import codewars_0223.sol.Vowels;
 import codewars_0224.sol.Kata2;
 import codewars_0225.sol.Troll;
+import codewars_0226.sol.Kata3;
 
 public class main {
 
@@ -15,6 +16,7 @@ public class main {
 		System.out.println(Vowels.getCount("abcoudefg "));	//0223
 		System.out.println(Kata2.numberToString(123));
 		System.out.println(Troll.disemvowel("This website is for losers LOL!"));
+		System.out.println(Kata3.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
 	}
 
 }
