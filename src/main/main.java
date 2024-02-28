@@ -7,6 +7,7 @@ import codewars_0224.sol.Kata2;
 import codewars_0225.sol.Troll;
 import codewars_0226.sol.Kata3;
 import codewars_0227.sol.Kata4;
+import codewars_0228.sol.Solution2;
 
 public class main {
 
@@ -19,6 +20,7 @@ public class main {
 		System.out.println(Troll.disemvowel("This website is for losers LOL!"));
 		System.out.println(Kata3.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
 		System.out.println(Kata4.opposite(-10));
+		System.out.println(Solution2.whoLikesIt("Peter, Sim"));
 	}
 
 }
