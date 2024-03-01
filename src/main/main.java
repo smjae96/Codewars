@@ -9,6 +9,7 @@ import codewars_0226.sol.Kata3;
 import codewars_0227.sol.Kata4;
 import codewars_0228.sol.Solution2;
 import codewars_0229.sol.SquareDigit;
+import codewars_0301.sol.YesOrNO;
 
 public class main {
 
@@ -23,6 +24,7 @@ public class main {
 		System.out.println(Kata4.opposite(-10));
 		System.out.println(Solution2.whoLikesIt("Peter, Sim"));
 		System.out.println(SquareDigit.squareDigits(9119));
+		System.out.println(YesOrNO.boolToWord(false));
 	}
 
 }
