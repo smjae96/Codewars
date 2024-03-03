@@ -11,6 +11,7 @@ import codewars_0228.sol.Solution2;
 import codewars_0229.sol.SquareDigit;
 import codewars_0301.sol.YesOrNO;
 import codewars_0302.sol.Solution3;
+import codwars_0303.sol.HighAndLow;
 
 public class main {
 
@@ -27,6 +28,7 @@ public class main {
 		System.out.println(SquareDigit.squareDigits(9119));
 		System.out.println(YesOrNO.boolToWord(false));
 		System.out.println(Solution3.repeatStr(20, "ABC"));
+		System.out.println(HighAndLow.highAndLow("150 99 100 10 -10 25"));
 	}
 
 }
