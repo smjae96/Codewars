@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Arrays;
+
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
 import codewars_0223.sol.Vowels;
@@ -13,6 +15,7 @@ import codewars_0301.sol.YesOrNO;
 import codewars_0302.sol.Solution3;
 import codewars_0303.sol.HighAndLow;
 import codewars_0304.sol.RemoveChars;
+import codewars_0305.sol.ArrayDiff;
 
 public class main {
 
@@ -31,6 +34,7 @@ public class main {
 		System.out.println(Solution3.repeatStr(20, "ABC"));
 		System.out.println(HighAndLow.highAndLow("150 99 100 10 -10 25"));
 		System.out.println(RemoveChars.remove("eloquent"));
+		System.out.println(Arrays.toString(ArrayDiff.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2})));
 	}
 
 }
