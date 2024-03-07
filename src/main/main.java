@@ -17,6 +17,7 @@ import codewars_0303.sol.HighAndLow;
 import codewars_0304.sol.RemoveChars;
 import codewars_0305.sol.ArrayDiff;
 import codewars_0306.sol.DescendingOrder;
+import codewars_0307.sol.SquareSum;
 
 public class main {
 
@@ -37,6 +38,7 @@ public class main {
 		System.out.println(RemoveChars.remove("eloquent"));
 		System.out.println(Arrays.toString(ArrayDiff.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2})));
 		System.out.println(DescendingOrder.sortDesc(1456456));
+		System.out.println(SquareSum.squareSum(new int[]{1,2,2}));
 	}
 
 }
