@@ -1,6 +1,7 @@
 package main;
 
 import java.util.Arrays;
+import java.util.List;
 
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
@@ -18,6 +19,7 @@ import codewars_0304.sol.RemoveChars;
 import codewars_0305.sol.ArrayDiff;
 import codewars_0306.sol.DescendingOrder;
 import codewars_0307.sol.SquareSum;
+import codewars_0308.sol.ListFiltering;
 
 public class main {
 
@@ -39,6 +41,8 @@ public class main {
 		System.out.println(Arrays.toString(ArrayDiff.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2})));
 		System.out.println(DescendingOrder.sortDesc(1456456));
 		System.out.println(SquareSum.squareSum(new int[]{1,2,2}));
+		int u = 1;
+		System.out.println(ListFiltering.filterList(List.of(1,2,"a", "b")));
 	}
 
 }
