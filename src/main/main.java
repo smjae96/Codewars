@@ -20,6 +20,7 @@ import codewars_0305.sol.ArrayDiff;
 import codewars_0306.sol.DescendingOrder;
 import codewars_0307.sol.SquareSum;
 import codewars_0308.sol.ListFiltering;
+import codewars_0309.sol.Grasshopper_Summation;
 
 public class main {
 
@@ -43,6 +44,7 @@ public class main {
 		System.out.println(SquareSum.squareSum(new int[]{1,2,2}));
 		int u = 1;
 		System.out.println(ListFiltering.filterList(List.of(1,2,"a", "b")));
+		System.out.println(Grasshopper_Summation.summation(10));
 	}
 
 }
