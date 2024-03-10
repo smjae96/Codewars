@@ -1,8 +1,5 @@
 package main;
 
-import java.util.Arrays;
-import java.util.List;
-
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
 import codewars_0223.sol.Vowels;
@@ -15,12 +12,8 @@ import codewars_0229.sol.SquareDigit;
 import codewars_0301.sol.YesOrNO;
 import codewars_0302.sol.Solution3;
 import codewars_0303.sol.HighAndLow;
-import codewars_0304.sol.RemoveChars;
-import codewars_0305.sol.ArrayDiff;
-import codewars_0306.sol.DescendingOrder;
-import codewars_0307.sol.SquareSum;
-import codewars_0308.sol.ListFiltering;
 import codewars_0309.sol.Grasshopper_Summation;
+import codewars_0310.sol.MiddleCharacter;
 
 public class main {
 
@@ -38,13 +31,10 @@ public class main {
 		System.out.println(YesOrNO.boolToWord(false));
 		System.out.println(Solution3.repeatStr(20, "ABC"));
 		System.out.println(HighAndLow.highAndLow("150 99 100 10 -10 25"));
-		System.out.println(RemoveChars.remove("eloquent"));
-		System.out.println(Arrays.toString(ArrayDiff.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2})));
-		System.out.println(DescendingOrder.sortDesc(1456456));
-		System.out.println(SquareSum.squareSum(new int[]{1,2,2}));
-		int u = 1;
-		System.out.println(ListFiltering.filterList(List.of(1,2,"a", "b")));
 		System.out.println(Grasshopper_Summation.summation(10));
+		System.out.println(MiddleCharacter.getMiddle("Football"));
+		
+				
 	}
 
 }
