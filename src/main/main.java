@@ -33,6 +33,7 @@ public class main {
 		System.out.println(HighAndLow.highAndLow("150 99 100 10 -10 25"));
 		System.out.println(Grasshopper_Summation.summation(10));
 		System.out.println(MiddleCharacter.getMiddle("Football"));
+		System.out.println(HelloWorld.greet());
 		
 				
 	}
