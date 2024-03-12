@@ -34,6 +34,7 @@ public class main {
 		System.out.println(Grasshopper_Summation.summation(10));
 		System.out.println(MiddleCharacter.getMiddle("Football"));
 		System.out.println(HelloWorld.greet());
+		System.out.println(SpinWords.spinWords("abcde abc bcdea"));
 		
 				
 	}
