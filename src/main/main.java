@@ -23,6 +23,7 @@ import codewars_0308.sol.ListFiltering;
 import codewars_0311.sol.HelloWorld;
 import codewars_0312.sol.SpinWords;
 import codewars_0313.sol.IsoGram;
+import codewars_0314.sol.ToJadenCase;
 
 public class main {
 
@@ -49,6 +50,7 @@ public class main {
 		System.out.println(HelloWorld.greet());
 		System.out.println(SpinWords.spinWords("abcde abc bcdea"));
 		System.out.println(IsoGram.isIsogram(""));
+		System.out.println(ToJadenCase.toJadenCase(null));
 	}
 
 }
