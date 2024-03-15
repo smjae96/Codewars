@@ -24,6 +24,7 @@ import codewars_0311.sol.HelloWorld;
 import codewars_0312.sol.SpinWords;
 import codewars_0313.sol.IsoGram;
 import codewars_0314.sol.ToJadenCase;
+import codewars_0315.sol.getXO;
 
 public class main {
 
@@ -51,6 +52,7 @@ public class main {
 		System.out.println(SpinWords.spinWords("abcde abc bcdea"));
 		System.out.println(IsoGram.isIsogram(""));
 		System.out.println(ToJadenCase.toJadenCase(null));
+		System.out.println(getXO.getXO("ppxxxxxooodd"));
 	}
 
 }
