@@ -53,6 +53,7 @@ public class main {
 		System.out.println(IsoGram.isIsogram(""));
 		System.out.println(ToJadenCase.toJadenCase(null));
 		System.out.println(getXO.getXO("ppxxxxxooodd"));
+		System.out.println(BitCounting.countBits(1234));
 	}
 
 }
