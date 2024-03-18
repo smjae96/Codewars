@@ -55,6 +55,7 @@ public class main {
 		System.out.println(getXO.getXO("ppxxxxxooodd"));
 		System.out.println(BitCounting.countBits(1234));
 		System.out.println(DuplicateEncoder.encode("recede"));
+		System.out.println(Accumul.accum("abcde"));
 	}
 
 }
