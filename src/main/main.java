@@ -25,6 +25,10 @@ import codewars_0312.sol.SpinWords;
 import codewars_0313.sol.IsoGram;
 import codewars_0314.sol.ToJadenCase;
 import codewars_0315.sol.getXO;
+import codewars_0316.sol.BitCounting;
+import codewars_0317.sol.DuplicateEncoder;
+import codewars_0318.sol.Accumul;
+import codewars_0319.sol.FindOutlier;
 
 public class main {
 
@@ -56,6 +60,7 @@ public class main {
 		System.out.println(BitCounting.countBits(1234));
 		System.out.println(DuplicateEncoder.encode("recede"));
 		System.out.println(Accumul.accum("abcde"));
+		System.out.println(FindOutlier.find(new int[]{-3, 0, 2, 4, 6}));
 	}
 
 }
