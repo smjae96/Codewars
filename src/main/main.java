@@ -29,6 +29,8 @@ import codewars_0316.sol.BitCounting;
 import codewars_0317.sol.DuplicateEncoder;
 import codewars_0318.sol.Accumul;
 import codewars_0319.sol.FindOutlier;
+import codewars_0320.sol.TenMinWalk;
+
 
 public class main {
 
@@ -61,6 +63,7 @@ public class main {
 		System.out.println(DuplicateEncoder.encode("recede"));
 		System.out.println(Accumul.accum("abcde"));
 		System.out.println(FindOutlier.find(new int[]{-3, 0, 2, 4, 6}));
+		System.out.println(TenMinWalk.isValid(new char[] {'w','e','w','e','w','e','w','e','w','e'}));
 	}
 
 }
