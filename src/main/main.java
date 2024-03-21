@@ -64,6 +64,7 @@ public class main {
 		System.out.println(Accumul.accum("abcde"));
 		System.out.println(FindOutlier.find(new int[]{-3, 0, 2, 4, 6}));
 		System.out.println(TenMinWalk.isValid(new char[] {'w','e','w','e','w','e','w','e','w','e'}));
+		System.out.println(StringToNumber.stringToNumber("150"));
 	}
 
 }
