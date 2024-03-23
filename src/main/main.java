@@ -32,6 +32,7 @@ import codewars_0319.sol.FindOutlier;
 import codewars_0320.sol.TenMinWalk;
 import codewars_0321.sol.StringToNumber;
 import codewars_0322.sol.PigLatin;
+import codewars_0323.sol.DnaStrand;
 
 public class main {
 
@@ -67,6 +68,7 @@ public class main {
 		System.out.println(TenMinWalk.isValid(new char[] {'w','e','w','e','w','e','w','e','w','e'}));
 		System.out.println(StringToNumber.stringToNumber("150"));
 		System.out.println(PigLatin.pigIt("Hello world !"));
+		System.out.println(DnaStrand.makeComplement("ATTGC"));
 	}
 
 }
