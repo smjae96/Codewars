@@ -33,6 +33,7 @@ import codewars_0320.sol.TenMinWalk;
 import codewars_0321.sol.StringToNumber;
 import codewars_0322.sol.PigLatin;
 import codewars_0323.sol.DnaStrand;
+import codewars_0324.sol.HumanReadableTime;
 
 public class main {
 
@@ -69,6 +70,7 @@ public class main {
 		System.out.println(StringToNumber.stringToNumber("150"));
 		System.out.println(PigLatin.pigIt("Hello world !"));
 		System.out.println(DnaStrand.makeComplement("ATTGC"));
+		System.out.println(HumanReadableTime.makeReadable(359999));
 	}
 
 }
