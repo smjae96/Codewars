@@ -37,6 +37,7 @@ import codewars_0324.sol.HumanReadableTime;
 import codewars_0325.sol.RemoveStringSpaces;
 import codewars_0326.sol.ConvertStringToCamelCase;
 import codewars_0327.sol.HighestScoringWord;
+import codewars_0328.sol.DoubleInteger;
 
 public class main {
 
@@ -77,6 +78,7 @@ public class main {
 		System.out.println(RemoveStringSpaces.noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"));
 		System.out.println(ConvertStringToCamelCase.toCamelCase("the-Stealth_Warrior"));
 		System.out.println(HighestScoringWord.high("aa b"));
+		System.out.println(DoubleInteger.doubleInteger(2));
 	}
 
 }
