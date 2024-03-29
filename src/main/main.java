@@ -38,6 +38,7 @@ import codewars_0325.sol.RemoveStringSpaces;
 import codewars_0326.sol.ConvertStringToCamelCase;
 import codewars_0327.sol.HighestScoringWord;
 import codewars_0328.sol.DoubleInteger;
+import codewars_0329.sol.MaximumSubarray;
 
 public class main {
 
@@ -79,6 +80,7 @@ public class main {
 		System.out.println(ConvertStringToCamelCase.toCamelCase("the-Stealth_Warrior"));
 		System.out.println(HighestScoringWord.high("aa b"));
 		System.out.println(DoubleInteger.doubleInteger(2));
+		System.out.println(MaximumSubarray.sequence(new int[]{-2, 1, -3, 4, -1}));
 	}
 
 }
