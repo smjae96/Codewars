@@ -39,6 +39,8 @@ import codewars_0326.sol.ConvertStringToCamelCase;
 import codewars_0327.sol.HighestScoringWord;
 import codewars_0328.sol.DoubleInteger;
 import codewars_0329.sol.MaximumSubarray;
+import codewars_0330.sol.Maskify;
+import codewars_0331.sol.TwoToOne;
 
 public class main {
 
@@ -81,6 +83,8 @@ public class main {
 		System.out.println(HighestScoringWord.high("aa b"));
 		System.out.println(DoubleInteger.doubleInteger(2));
 		System.out.println(MaximumSubarray.sequence(new int[]{-2, 1, -3, 4, -1}));
+		System.out.println(Maskify.maskify("Nananananananananananananananana Batman!"));	
+		System.out.println(TwoToOne.longest("aretheyhere", "yestheyarehere"));
 	}
 
 }
