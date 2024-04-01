@@ -41,6 +41,7 @@ import codewars_0328.sol.DoubleInteger;
 import codewars_0329.sol.MaximumSubarray;
 import codewars_0330.sol.Maskify;
 import codewars_0331.sol.TwoToOne;
+import codewars_0401.sol.Sum;
 
 public class main {
 
@@ -85,6 +86,7 @@ public class main {
 		System.out.println(MaximumSubarray.sequence(new int[]{-2, 1, -3, 4, -1}));
 		System.out.println(Maskify.maskify("Nananananananananananananananana Batman!"));	
 		System.out.println(TwoToOne.longest("aretheyhere", "yestheyarehere"));
+		System.out.println(Sum.GetSum(0, -1));
 	}
 
 }
