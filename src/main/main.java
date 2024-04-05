@@ -45,6 +45,7 @@ import codewars_0401.sol.Sum;
 import codewars_0402.sol.GrowthOfAPopulation;
 import codewars_0403.sol.PangramChecker;
 import codewars_0404.sol.BinaryAddition;
+import codewars_0405.sol.RgbToHex;
 public class main {
 
 	public static void main(String[] args) {
@@ -92,6 +93,7 @@ public class main {
 		System.out.println(GrowthOfAPopulation.nbYear(1500000, 0.25, 1000, 2000000));
 		System.out.println(PangramChecker.check("The quick brown fox jumps over the lazy dog."));
 		System.out.println(BinaryAddition.binaryAddition(1, 5));
+		System.out.println(RgbToHex.rgb(255, 255, 300));
 	}
 
 }
