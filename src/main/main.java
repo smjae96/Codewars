@@ -94,7 +94,7 @@ public class main {
 		System.out.println(PangramChecker.check("The quick brown fox jumps over the lazy dog."));
 		System.out.println(BinaryAddition.binaryAddition(1, 5));
 		System.out.println(RgbToHex.rgb(255, 255, 300));
-		s
+		
 	}
 
 }
