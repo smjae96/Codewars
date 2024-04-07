@@ -47,6 +47,7 @@ import codewars_0403.sol.PangramChecker;
 import codewars_0404.sol.BinaryAddition;
 import codewars_0405.sol.RgbToHex;
 import codewars_0406.sol.FindTheNextPerfectSquare;
+import codewars_0407.sol.FindTheOddInt;
 
 public class main {
 
@@ -97,6 +98,7 @@ public class main {
 		System.out.println(BinaryAddition.binaryAddition(1, 5));
 		System.out.println(RgbToHex.rgb(255, 255, 300));
 		System.out.println(FindTheNextPerfectSquare.findNextSquare(114));
+		System.out.println(FindTheOddInt.findIt(new int[]{20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5}));
 		
 	}
 
