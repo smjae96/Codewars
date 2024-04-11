@@ -51,6 +51,7 @@ import codewars_0407.sol.FindTheOddInt;
 import codewars_0408.sol.StringSplit;
 import codewars_0409.sol.CountingSheep;
 import codewars_0410.sol.YoureASquare;
+import codewars_0411.sol.NumberUnits;
 
 
 public class main {
@@ -106,6 +107,7 @@ public class main {
 		System.out.println(StringSplit.solution("abcde"));
 		System.out.println(CountingSheep.countSheeps(new Boolean[] {true,false,true,true,true}));
 		System.out.println(YoureASquare.isSquare(26));
+		System.out.println(NumberUnits.isNarcissistic(747729));
 		
 	}
 
