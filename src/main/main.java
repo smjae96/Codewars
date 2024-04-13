@@ -53,6 +53,7 @@ import codewars_0409.sol.CountingSheep;
 import codewars_0410.sol.YoureASquare;
 import codewars_0411.sol.NumberUnits;
 import codewars_0412.sol.DirReduction;
+import codewars_0413.sol.WhoLikesIt;
 
 
 public class main {
@@ -110,7 +111,7 @@ public class main {
 		System.out.println(YoureASquare.isSquare(26));
 		System.out.println(NumberUnits.isNarcissistic(747729));
 		System.out.println(DirReduction.dirReduc(new String[]{"EAST", "EAST", "WEST", "NORTH", "WEST", "EAST", "EAST", "SOUTH", "NORTH", "WEST"}));
-		
+		System.out.println(WhoLikesIt.whoLikesIt("Alex", "Jacob", "Mark", "Max"));
 	}
 
 }
