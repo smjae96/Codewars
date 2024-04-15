@@ -55,6 +55,7 @@ import codewars_0411.sol.NumberUnits;
 import codewars_0412.sol.DirReduction;
 import codewars_0413.sol.WhoLikesIt;
 import codewars_0414.sol.SumOfDigits;
+import codewars_0415.sol.SmallestIntegerFinder;
 
 
 public class main {
@@ -114,6 +115,7 @@ public class main {
 		System.out.println(DirReduction.dirReduc(new String[]{"EAST", "EAST", "WEST", "NORTH", "WEST", "EAST", "EAST", "SOUTH", "NORTH", "WEST"}));
 		System.out.println(WhoLikesIt.whoLikesIt("Alex", "Jacob", "Mark", "Max"));
 		System.out.println(SumOfDigits.digital_root(942));
+		System.out.println(SmallestIntegerFinder.findSmallestInt(new int[] { 34,15,88,2}));
 	}
 
 }
