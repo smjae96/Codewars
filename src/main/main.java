@@ -56,6 +56,8 @@ import codewars_0412.sol.DirReduction;
 import codewars_0413.sol.WhoLikesIt;
 import codewars_0414.sol.SumOfDigits;
 import codewars_0415.sol.SmallestIntegerFinder;
+import codewars_0416.sol.PersistentBugger;
+import codewars_0417.sol.YourOrderPlease;
 
 
 public class main {
@@ -116,6 +118,8 @@ public class main {
 		System.out.println(WhoLikesIt.whoLikesIt("Alex", "Jacob", "Mark", "Max"));
 		System.out.println(SumOfDigits.digital_root(942));
 		System.out.println(SmallestIntegerFinder.findSmallestInt(new int[] { 34,15,88,2}));
+		System.out.println(PersistentBugger.persistence(39));
+		System.out.println(YourOrderPlease.order("is2 Thi1s T4est 3a"));
 	}
 
 }
