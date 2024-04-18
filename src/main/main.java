@@ -58,6 +58,7 @@ import codewars_0414.sol.SumOfDigits;
 import codewars_0415.sol.SmallestIntegerFinder;
 import codewars_0416.sol.PersistentBugger;
 import codewars_0417.sol.YourOrderPlease;
+import codewars_0418.sol.SumOfPositive;
 
 
 public class main {
@@ -120,6 +121,7 @@ public class main {
 		System.out.println(SmallestIntegerFinder.findSmallestInt(new int[] { 34,15,88,2}));
 		System.out.println(PersistentBugger.persistence(39));
 		System.out.println(YourOrderPlease.order("is2 Thi1s T4est 3a"));
+		System.out.println(SumOfPositive.sum(new int[]{1,2,3,4,5}));
 	}
 
 }
