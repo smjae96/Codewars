@@ -59,6 +59,7 @@ import codewars_0415.sol.SmallestIntegerFinder;
 import codewars_0416.sol.PersistentBugger;
 import codewars_0417.sol.YourOrderPlease;
 import codewars_0418.sol.SumOfPositive;
+import codewars_0419.sol.FindTheUniqueNumber;
 
 
 public class main {
@@ -122,6 +123,7 @@ public class main {
 		System.out.println(PersistentBugger.persistence(39));
 		System.out.println(YourOrderPlease.order("is2 Thi1s T4est 3a"));
 		System.out.println(SumOfPositive.sum(new int[]{1,2,3,4,5}));
+		System.out.println(FindTheUniqueNumber.findUniq(new double[] {0.5, 0.5, 0.1, 0.5} ));
 	}
 
 }
