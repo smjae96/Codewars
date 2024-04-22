@@ -62,6 +62,7 @@ import codewars_0418.sol.SumOfPositive;
 import codewars_0419.sol.FindTheUniqueNumber;
 import codewars_0420.sol.ShortestWord;
 import codewars_0421.sol.StringEndsWith;
+import codewars_0422.sol.KeepHydrated;
 
 
 public class main {
@@ -128,6 +129,7 @@ public class main {
 		System.out.println(FindTheUniqueNumber.findUniq(new double[] {0.5, 0.5, 0.1, 0.5} ));
 		System.out.println(ShortestWord.findShort("bitcoin take over the world maybe who knows perhaps"));
 		System.out.println(StringEndsWith.solution("samurai", "ai"));
+		System.out.println(KeepHydrated.Liters(6.7));
 	}
 
 }
