@@ -63,6 +63,7 @@ import codewars_0419.sol.FindTheUniqueNumber;
 import codewars_0420.sol.ShortestWord;
 import codewars_0421.sol.StringEndsWith;
 import codewars_0422.sol.KeepHydrated;
+import codewars_0423.sol.PeteTheBaker;
 
 
 public class main {
@@ -130,6 +131,15 @@ public class main {
 		System.out.println(ShortestWord.findShort("bitcoin take over the world maybe who knows perhaps"));
 		System.out.println(StringEndsWith.solution("samurai", "ai"));
 		System.out.println(KeepHydrated.Liters(6.7));
+		System.out.println(PeteTheBaker.cakes(Map.of(
+				"flour", 500,
+	            "sugar", 200,
+	            "eggs", 1,
+	            "cinnamon", 300), Map.of(
+	            		"flour", 1200,
+	                    "sugar", 1200,
+	                    "eggs", 5,
+	                    "milk", 200)));
 	}
 
 }
