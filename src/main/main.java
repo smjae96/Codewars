@@ -64,6 +64,7 @@ import codewars_0420.sol.ShortestWord;
 import codewars_0421.sol.StringEndsWith;
 import codewars_0422.sol.KeepHydrated;
 import codewars_0423.sol.PeteTheBaker;
+import codewars_0424.sol.FirstNonRepeatingCharacter;
 
 
 public class main {
@@ -140,6 +141,7 @@ public class main {
 	                    "sugar", 1200,
 	                    "eggs", 5,
 	                    "milk", 200)));
+		System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingLetter("moon-men"));
 	}
 
 }
