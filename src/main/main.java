@@ -66,6 +66,7 @@ import codewars_0422.sol.KeepHydrated;
 import codewars_0423.sol.PeteTheBaker;
 import codewars_0424.sol.FirstNonRepeatingCharacter;
 import codewars_0425.sol.OnesAndZeros;
+import codewars_0426.sol.Scramblies;
 
 public class main {
 
@@ -143,6 +144,7 @@ public class main {
 	                    "milk", 200)));
 		System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingLetter("moon-men"));
 		System.out.println(OnesAndZeros.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0,0,0,1))));
+		System.out.println(Scramblies.scramble("scriptjavx","javascript"));
 	}
 
 }
