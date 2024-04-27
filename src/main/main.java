@@ -1,7 +1,9 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
@@ -67,6 +69,7 @@ import codewars_0423.sol.PeteTheBaker;
 import codewars_0424.sol.FirstNonRepeatingCharacter;
 import codewars_0425.sol.OnesAndZeros;
 import codewars_0426.sol.Scramblies;
+import codewars_0427.sol.ReverseWords;
 
 public class main {
 
@@ -145,6 +148,7 @@ public class main {
 		System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingLetter("moon-men"));
 		System.out.println(OnesAndZeros.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0,0,0,1))));
 		System.out.println(Scramblies.scramble("scriptjavx","javascript"));
+		System.out.println(ReverseWords.reverseWords("This is an example!"));
 	}
 
 }
