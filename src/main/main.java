@@ -70,6 +70,7 @@ import codewars_0424.sol.FirstNonRepeatingCharacter;
 import codewars_0425.sol.OnesAndZeros;
 import codewars_0426.sol.Scramblies;
 import codewars_0427.sol.ReverseWords;
+import codewars_0428.sol.NumberOfPeopleInTheBus;
 
 public class main {
 
@@ -149,6 +150,11 @@ public class main {
 		System.out.println(OnesAndZeros.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0,0,0,1))));
 		System.out.println(Scramblies.scramble("scriptjavx","javascript"));
 		System.out.println(ReverseWords.reverseWords("This is an example!"));
+		ArrayList<int[]> list = new ArrayList<int[]>();
+	    list.add(new int[] {10,0});
+	    list.add(new int[] {3,5});
+	    list.add(new int[] {2,5});
+		System.out.println(NumberOfPeopleInTheBus.countPassengers(list));
 	}
 
 }
