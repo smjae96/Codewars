@@ -71,6 +71,7 @@ import codewars_0425.sol.OnesAndZeros;
 import codewars_0426.sol.Scramblies;
 import codewars_0427.sol.ReverseWords;
 import codewars_0428.sol.NumberOfPeopleInTheBus;
+import codewars_0429.sol.BreakCamelCase;
 
 public class main {
 
@@ -155,6 +156,7 @@ public class main {
 	    list.add(new int[] {3,5});
 	    list.add(new int[] {2,5});
 		System.out.println(NumberOfPeopleInTheBus.countPassengers(list));
+		System.out.println(BreakCamelCase.camelCase("camelCasingTest"));
 	}
 
 }
