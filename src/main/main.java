@@ -72,6 +72,7 @@ import codewars_0426.sol.Scramblies;
 import codewars_0427.sol.ReverseWords;
 import codewars_0428.sol.NumberOfPeopleInTheBus;
 import codewars_0429.sol.BreakCamelCase;
+import codewars_0430.sol.ReturningStrings;
 
 public class main {
 
@@ -157,6 +158,7 @@ public class main {
 	    list.add(new int[] {2,5});
 		System.out.println(NumberOfPeopleInTheBus.countPassengers(list));
 		System.out.println(BreakCamelCase.camelCase("camelCasingTest"));
+		System.out.println(ReturningStrings.greet("Ryan"));
 	}
 
 }
