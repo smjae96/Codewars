@@ -73,6 +73,7 @@ import codewars_0427.sol.ReverseWords;
 import codewars_0428.sol.NumberOfPeopleInTheBus;
 import codewars_0429.sol.BreakCamelCase;
 import codewars_0430.sol.ReturningStrings;
+import codewars_0501.sol.OddOrEven;
 
 public class main {
 
@@ -159,6 +160,7 @@ public class main {
 		System.out.println(NumberOfPeopleInTheBus.countPassengers(list));
 		System.out.println(BreakCamelCase.camelCase("camelCasingTest"));
 		System.out.println(ReturningStrings.greet("Ryan"));
+		System.out.println(OddOrEven.oddOrEven(new int[] {0, -1, -5}));
 	}
 
 }
