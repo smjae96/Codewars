@@ -74,6 +74,7 @@ import codewars_0428.sol.NumberOfPeopleInTheBus;
 import codewars_0429.sol.BreakCamelCase;
 import codewars_0430.sol.ReturningStrings;
 import codewars_0501.sol.OddOrEven;
+import codewars_0502.sol.IsNumberAPrime;
 
 public class main {
 
@@ -161,6 +162,7 @@ public class main {
 		System.out.println(BreakCamelCase.camelCase("camelCasingTest"));
 		System.out.println(ReturningStrings.greet("Ryan"));
 		System.out.println(OddOrEven.oddOrEven(new int[] {0, -1, -5}));
+		System.out.println(IsNumberAPrime.isPrime(4));
 	}
 
 }
