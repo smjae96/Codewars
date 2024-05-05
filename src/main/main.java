@@ -77,6 +77,7 @@ import codewars_0501.sol.OddOrEven;
 import codewars_0502.sol.IsNumberAPrime;
 import codewars_0503.sol.TheHighestProfitWins;
 import codewars_0504.sol.Testing123;
+import codewars_0505.sol.WhichAreIn;
 
 
 public class main {
@@ -168,6 +169,7 @@ public class main {
 		System.out.println(IsNumberAPrime.isPrime(4));
 		System.out.println(TheHighestProfitWins.minMax(new int[]{1,5}));
 		System.out.println(Testing123.number(Arrays.asList("a", "b", "c")));
+		System.out.println(WhichAreIn.inArray(new String[]{ "arp", "live", "strong" }, new String[] { "lively", "alive", "harp", "sharp", "armstrong" }));
 	}
 
 }
