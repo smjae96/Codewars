@@ -80,6 +80,7 @@ import codewars_0504.sol.Testing123;
 import codewars_0505.sol.WhichAreIn;
 import codewars_0506.sol.Factorial;
 import codewars_0507.sol.MakeUpperCase;
+import codewars_0508.sol.OppositesAttract;
 
 
 public class main {
@@ -174,6 +175,7 @@ public class main {
 		System.out.println(WhichAreIn.inArray(new String[]{ "arp", "live", "strong" }, new String[] { "lively", "alive", "harp", "sharp", "armstrong" }));
 		System.out.println(Factorial.factorial(5));
 		System.out.println(MakeUpperCase.MakeUpperCase("hello"));
+		System.out.println(OppositesAttract.isLove(0, 1));
 	}
 
 }
