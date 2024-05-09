@@ -81,7 +81,7 @@ import codewars_0505.sol.WhichAreIn;
 import codewars_0506.sol.Factorial;
 import codewars_0507.sol.MakeUpperCase;
 import codewars_0508.sol.OppositesAttract;
-
+import codewars_0509.sol.DontGiveMeFive;
 
 public class main {
 
@@ -176,6 +176,7 @@ public class main {
 		System.out.println(Factorial.factorial(5));
 		System.out.println(MakeUpperCase.MakeUpperCase("hello"));
 		System.out.println(OppositesAttract.isLove(0, 1));
+		System.out.println(DontGiveMeFive.dontGiveMeFive(4, 17));
 	}
 
 }
