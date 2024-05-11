@@ -83,6 +83,7 @@ import codewars_0507.sol.MakeUpperCase;
 import codewars_0508.sol.OppositesAttract;
 import codewars_0509.sol.DontGiveMeFive;
 import codewars_0510.sol.BreakingChocolateProblem;
+import codewars_0511.sol.BackspacesInString;
 
 public class main {
 
@@ -179,6 +180,7 @@ public class main {
 		System.out.println(OppositesAttract.isLove(0, 1));
 		System.out.println(DontGiveMeFive.dontGiveMeFive(4, 17));
 		System.out.println(BreakingChocolateProblem.breakChocolate(5, 5));
+		System.out.println(BackspacesInString.cleanString("abc#d##c"));
 	}
 
 }
