@@ -84,6 +84,7 @@ import codewars_0508.sol.OppositesAttract;
 import codewars_0509.sol.DontGiveMeFive;
 import codewars_0510.sol.BreakingChocolateProblem;
 import codewars_0511.sol.BackspacesInString;
+import codewars_0512.sol.GreetMe;
 
 public class main {
 
@@ -181,6 +182,7 @@ public class main {
 		System.out.println(DontGiveMeFive.dontGiveMeFive(4, 17));
 		System.out.println(BreakingChocolateProblem.breakChocolate(5, 5));
 		System.out.println(BackspacesInString.cleanString("abc#d##c"));
+		System.out.println(GreetMe.greet("npa6mni9v551hifkmikm1ilfbl"));
 	}
 
 }
