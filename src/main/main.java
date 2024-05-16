@@ -88,6 +88,7 @@ import codewars_0512.sol.GreetMe;
 import codewars_0513.sol.SumOfNumbersFrom0ToN;
 import codewars_0514.sol.LeapYears;
 import codewars_0515.sol.FixStringCase;
+import codewars_0516.sol.CalculateAverage;
 
 public class main {
 
@@ -189,6 +190,7 @@ public class main {
 		System.out.println(SumOfNumbersFrom0ToN.showSequence(6));
 		System.out.println(LeapYears.isLeapYear(2000));
 		System.out.println(FixStringCase.solve("CODe"));
+		System.out.println(CalculateAverage.find_average(new int[]{1, 2, 3, 4}));
 	}
 
 }
