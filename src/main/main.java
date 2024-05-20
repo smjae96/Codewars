@@ -92,6 +92,7 @@ import codewars_0516.sol.CalculateAverage;
 import codewars_0517.sol.WriteNumberInExpandedForm;
 import codewars_0518.sol.RockPaperScissors;
 import codewars_0519.sol.BumpsIntheRoad;
+import codewars_0520.sol.BasicMathematicalOperations;
 
 public class main {
 
@@ -197,6 +198,7 @@ public class main {
 		System.out.println(WriteNumberInExpandedForm.expandedForm(70304));
 		System.out.println(RockPaperScissors.rps("rock", "scissors"));
 		System.out.println(BumpsIntheRoad.bumps("_nnnnnnn_n__n______nn__nn_nnn"));
+		System.out.println(BasicMathematicalOperations.basicMath("+", 5, 6));
 	}
 
 }
