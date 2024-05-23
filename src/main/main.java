@@ -95,6 +95,7 @@ import codewars_0519.sol.BumpsIntheRoad;
 import codewars_0520.sol.BasicMathematicalOperations;
 import codewars_0521.sol.SumOfAngles;
 import codewars_0522.sol.ReduceButGrow;
+import codewars_0523.sol.NotVerySecure;
 
 public class main {
 
@@ -203,6 +204,7 @@ public class main {
 		System.out.println(BasicMathematicalOperations.basicMath("+", 5, 6));
 		System.out.println(SumOfAngles.sumOfAngles(3));
 		System.out.println(ReduceButGrow.grow(new int[]{4,1,1,1,4}));
+		System.out.println(NotVerySecure.alphanumeric("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
 	}
 
 }
