@@ -97,6 +97,7 @@ import codewars_0521.sol.SumOfAngles;
 import codewars_0522.sol.ReduceButGrow;
 import codewars_0523.sol.NotVerySecure;
 import codewars_0524.sol.AlternateCapitalization;
+import codewars_0525.sol.RomanNumeralsEncoder;
 
 public class main {
 
@@ -207,6 +208,7 @@ public class main {
 		System.out.println(ReduceButGrow.grow(new int[]{4,1,1,1,4}));
 		System.out.println(NotVerySecure.alphanumeric("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
 		System.out.println(AlternateCapitalization.capitalize("codewars"));
+		System.out.println(RomanNumeralsEncoder.solution(1666));
 	}
 
 }
