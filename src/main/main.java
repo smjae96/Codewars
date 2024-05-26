@@ -98,6 +98,7 @@ import codewars_0522.sol.ReduceButGrow;
 import codewars_0523.sol.NotVerySecure;
 import codewars_0524.sol.AlternateCapitalization;
 import codewars_0525.sol.RomanNumeralsEncoder;
+import codewars_0526.sol.SchoolPaperwork;
 
 public class main {
 
@@ -209,6 +210,7 @@ public class main {
 		System.out.println(NotVerySecure.alphanumeric("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
 		System.out.println(AlternateCapitalization.capitalize("codewars"));
 		System.out.println(RomanNumeralsEncoder.solution(1666));
+		System.out.println(SchoolPaperwork.paperWork(5, 5));
 	}
 
 }
