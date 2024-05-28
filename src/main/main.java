@@ -100,6 +100,7 @@ import codewars_0524.sol.AlternateCapitalization;
 import codewars_0525.sol.RomanNumeralsEncoder;
 import codewars_0526.sol.SchoolPaperwork;
 import codewars_0527.sol.SumArrays;
+import codewars_0528.sol.ReverseLetter;
 
 public class main {
 
@@ -213,6 +214,7 @@ public class main {
 		System.out.println(RomanNumeralsEncoder.solution(1666));
 		System.out.println(SchoolPaperwork.paperWork(5, 5));
 		System.out.println(SumArrays.sum(new double[] {1.1, 2.2, 3.3}));
+		System.out.println(ReverseLetter.reverseLetter("ultr53o?n"));
 	}
 
 }
