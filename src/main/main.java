@@ -104,6 +104,7 @@ import codewars_0528.sol.ReverseLetter;
 import codewars_0529.sol.HowGoodAreYouReally;
 import codewars_0530.sol.TwoSum;
 import codewars_0531.sol.HumanReadableDurationFormat;
+import codewars_0601.sol.TriangularTreasure;
 
 public class main {
 
@@ -221,6 +222,7 @@ public class main {
 		System.out.println(HowGoodAreYouReally.betterThanAverage(new int[] {12, 23, 34, 45, 56, 67, 78, 89, 90}, 69));
 		System.out.println(TwoSum.twoSum(new int[]{1,2,3}, 4));
 		System.out.println(HumanReadableDurationFormat.formatDuration(99253662));
+		System.out.println(TriangularTreasure.triangular(1275));
 	}
 
 }
