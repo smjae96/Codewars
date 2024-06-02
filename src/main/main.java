@@ -105,6 +105,7 @@ import codewars_0529.sol.HowGoodAreYouReally;
 import codewars_0530.sol.TwoSum;
 import codewars_0531.sol.HumanReadableDurationFormat;
 import codewars_0601.sol.TriangularTreasure;
+import codewars_0602.sol.SortTheGiftCode;
 
 public class main {
 
@@ -223,6 +224,7 @@ public class main {
 		System.out.println(TwoSum.twoSum(new int[]{1,2,3}, 4));
 		System.out.println(HumanReadableDurationFormat.formatDuration(99253662));
 		System.out.println(TriangularTreasure.triangular(1275));
+		System.out.println(SortTheGiftCode.sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
 	}
 
 }
