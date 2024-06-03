@@ -225,6 +225,7 @@ public class main {
 		System.out.println(HumanReadableDurationFormat.formatDuration(99253662));
 		System.out.println(TriangularTreasure.triangular(1275));
 		System.out.println(SortTheGiftCode.sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
+		System.out.println(FunctionalAddition.add(3).applyAsInt(5));
 	}
 
 }
