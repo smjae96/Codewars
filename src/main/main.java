@@ -106,6 +106,8 @@ import codewars_0530.sol.TwoSum;
 import codewars_0531.sol.HumanReadableDurationFormat;
 import codewars_0601.sol.TriangularTreasure;
 import codewars_0602.sol.SortTheGiftCode;
+import codewars_0603.sol.FunctionalAddition;
+import codewars_0604.sol.LargestPairSumInArray;
 
 public class main {
 
@@ -226,6 +228,7 @@ public class main {
 		System.out.println(TriangularTreasure.triangular(1275));
 		System.out.println(SortTheGiftCode.sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
 		System.out.println(FunctionalAddition.add(3).applyAsInt(5));
+		System.out.println(LargestPairSumInArray.largestPairSum(new int[]{-10,-8,-16,-18,-19}));
 	}
 
 }
