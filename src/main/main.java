@@ -109,6 +109,8 @@ import codewars_0602.sol.SortTheGiftCode;
 import codewars_0603.sol.FunctionalAddition;
 import codewars_0604.sol.LargestPairSumInArray;
 import codewars_0605.sol.CamelCaseMethod;
+import codewars_0606.sol.SortedYesNoHow;
+import codewars_0606.sol.SortedYesNoHow;
 
 public class main {
 
@@ -231,6 +233,7 @@ public class main {
 		System.out.println(FunctionalAddition.add(3).applyAsInt(5));
 		System.out.println(LargestPairSumInArray.largestPairSum(new int[]{-10,-8,-16,-18,-19}));
 		System.out.println(CamelCaseMethod.camelCase(" camel case word"));
+		System.out.println(SortedYesNoHow.isSortedAndHow(new int[] {15, 7, 3, -8}));
 	}
 
 }
