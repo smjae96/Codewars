@@ -112,6 +112,7 @@ import codewars_0605.sol.CamelCaseMethod;
 import codewars_0606.sol.SortedYesNoHow;
 import codewars_0607.sol.StripComments;
 import codewars_0608.sol.MeanSquareError;
+import codewars_0609.sol.MaximumProduct;
 public class main {
 
 	public static void main(String[] args) {
@@ -236,6 +237,7 @@ public class main {
 		System.out.println(SortedYesNoHow.isSortedAndHow(new int[] {15, 7, 3, -8}));
 		System.out.println(StripComments.stripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new String[] { "#", "!" }));
 		System.out.println(MeanSquareError.solution(new int[]{10, 20, 10, 2}, new int[] {10, 25, 5, -2}));
+		System.out.println(MaximumProduct.adjacentElementsProduct(new int[] {-23, 4, -5, 99, -27, 329, -2, 7, -921}));
 	}
 
 }
