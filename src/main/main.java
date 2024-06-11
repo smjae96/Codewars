@@ -114,6 +114,7 @@ import codewars_0607.sol.StripComments;
 import codewars_0608.sol.MeanSquareError;
 import codewars_0609.sol.MaximumProduct;
 import codewars_0610.sol.Switcheroo;
+import codewars_0611.sol.Factorial;
 public class main {
 
 	public static void main(String[] args) {
@@ -240,6 +241,7 @@ public class main {
 		System.out.println(MeanSquareError.solution(new int[]{10, 20, 10, 2}, new int[] {10, 25, 5, -2}));
 		System.out.println(MaximumProduct.adjacentElementsProduct(new int[] {-23, 4, -5, 99, -27, 329, -2, 7, -921}));
 		System.out.println(Switcheroo.switcheroo("bbbacccabbb"));
+		System.out.println(Factorial.factorial(7));
 	}
 
 }
