@@ -116,6 +116,7 @@ import codewars_0609.sol.MaximumProduct;
 import codewars_0610.sol.Switcheroo;
 import codewars_0611.sol.Factorial;
 import codewars_0612.sol.EncryptThis;
+import codewars_0613.sol.LostWithoutAMap;
 public class main {
 
 	public static void main(String[] args) {
@@ -244,6 +245,7 @@ public class main {
 		System.out.println(Switcheroo.switcheroo("bbbacccabbb"));
 		System.out.println(Factorial.factorial(7));
 		System.out.println(EncryptThis.encryptThis("A wise old owl lived in an oak"));
+		System.out.println(LostWithoutAMap.map(new int[] {1, 2, 3}));
 	}
 
 }
