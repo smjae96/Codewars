@@ -120,6 +120,7 @@ import codewars_0613.sol.LostWithoutAMap;
 import codewars_0614.sol.AnagramDetection;
 import codewars_0615.sol.FindTheStrayNumber;
 import codewars_0616.sol.MaximumLengthDifference;
+import codewars_0617.sol.BuildTower;
 public class main {
 
 	public static void main(String[] args) {
@@ -252,6 +253,7 @@ public class main {
 		System.out.println(AnagramDetection.isAnagram("Buckethead", "DeathCubeK"));
 		System.out.println(FindTheStrayNumber.stray(new int[]{1,1,1,1,4}));
 		System.out.println(MaximumLengthDifference.mxdiflg(new String[] { "hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"}, new String[] {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"}));
+		System.out.println(BuildTower.towerBuilder(6));
 	}
 
 }
