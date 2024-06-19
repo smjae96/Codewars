@@ -122,6 +122,7 @@ import codewars_0615.sol.FindTheStrayNumber;
 import codewars_0616.sol.MaximumLengthDifference;
 import codewars_0617.sol.BuildTower;
 import codewars_0618.sol.SortTheOdd;
+import codewars_0619.sol.MakeTheDeadFishSwim;
 public class main {
 
 	public static void main(String[] args) {
@@ -256,6 +257,7 @@ public class main {
 		System.out.println(MaximumLengthDifference.mxdiflg(new String[] { "hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"}, new String[] {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"}));
 		System.out.println(BuildTower.towerBuilder(6));
 		System.out.println(SortTheOdd.sortArray(new int[]{ 5, 3, 2, 8, 1, 4 }));
+		System.out.println(MakeTheDeadFishSwim.parse("iiisdosodddddiso"));
 	}
 
 }
