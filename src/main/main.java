@@ -123,6 +123,7 @@ import codewars_0616.sol.MaximumLengthDifference;
 import codewars_0617.sol.BuildTower;
 import codewars_0618.sol.SortTheOdd;
 import codewars_0619.sol.MakeTheDeadFishSwim;
+import codewars_0620.sol.MakeAfunctionThatDoesArithmetic;
 public class main {
 
 	public static void main(String[] args) {
@@ -258,6 +259,7 @@ public class main {
 		System.out.println(BuildTower.towerBuilder(6));
 		System.out.println(SortTheOdd.sortArray(new int[]{ 5, 3, 2, 8, 1, 4 }));
 		System.out.println(MakeTheDeadFishSwim.parse("iiisdosodddddiso"));
+		System.out.println(MakeAfunctionThatDoesArithmetic.arithmetic(8, 2, "divide"));
 	}
 
 }
