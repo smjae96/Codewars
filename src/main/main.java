@@ -125,6 +125,7 @@ import codewars_0618.sol.SortTheOdd;
 import codewars_0619.sol.MakeTheDeadFishSwim;
 import codewars_0620.sol.MakeAfunctionThatDoesArithmetic;
 import codewars_0621.sol.PairOfGloves;
+import codewars_0622.sol.SimpleMultiplication;
 public class main {
 
 	public static void main(String[] args) {
@@ -262,6 +263,7 @@ public class main {
 		System.out.println(MakeTheDeadFishSwim.parse("iiisdosodddddiso"));
 		System.out.println(MakeAfunctionThatDoesArithmetic.arithmetic(8, 2, "divide"));
 		System.out.println(PairOfGloves.numberOfPairs(new String[] {"red", "green", "blue", "blue", "red", "green", "red", "red", "red"}));
+		System.out.println(SimpleMultiplication.simpleMultiplication(9));
 	}
 
 }
