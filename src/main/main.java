@@ -127,6 +127,7 @@ import codewars_0620.sol.MakeAfunctionThatDoesArithmetic;
 import codewars_0621.sol.PairOfGloves;
 import codewars_0622.sol.SimpleMultiplication;
 import codewars_0623.sol.CalculateStringRotation;
+import codewars_0624.sol.RemoveExclamationMark;
 public class main {
 
 	public static void main(String[] args) {
@@ -266,6 +267,7 @@ public class main {
 		System.out.println(PairOfGloves.numberOfPairs(new String[] {"red", "green", "blue", "blue", "red", "green", "red", "red", "red"}));
 		System.out.println(SimpleMultiplication.simpleMultiplication(9));
 		System.out.println(CalculateStringRotation.shiftedDiff("coffee","eecoff"));
+		System.out.println(RemoveExclamationMark.removeExclamationMarks("Hello World!"));
 	}
 
 }
