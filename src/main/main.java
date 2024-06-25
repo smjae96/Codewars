@@ -128,6 +128,7 @@ import codewars_0621.sol.PairOfGloves;
 import codewars_0622.sol.SimpleMultiplication;
 import codewars_0623.sol.CalculateStringRotation;
 import codewars_0624.sol.RemoveExclamationMark;
+import codewars_0625.sol.ContinuedFraction;
 public class main {
 
 	public static void main(String[] args) {
@@ -268,6 +269,7 @@ public class main {
 		System.out.println(SimpleMultiplication.simpleMultiplication(9));
 		System.out.println(CalculateStringRotation.shiftedDiff("coffee","eecoff"));
 		System.out.println(RemoveExclamationMark.removeExclamationMarks("Hello World!"));
+		System.out.println(ContinuedFraction.continuedFraction(311, 144));
 	}
 
 }
