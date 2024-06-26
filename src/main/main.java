@@ -129,6 +129,7 @@ import codewars_0622.sol.SimpleMultiplication;
 import codewars_0623.sol.CalculateStringRotation;
 import codewars_0624.sol.RemoveExclamationMark;
 import codewars_0625.sol.ContinuedFraction;
+import codewars_0626.sol.LargestRadialSum;
 public class main {
 
 	public static void main(String[] args) {
@@ -270,6 +271,7 @@ public class main {
 		System.out.println(CalculateStringRotation.shiftedDiff("coffee","eecoff"));
 		System.out.println(RemoveExclamationMark.removeExclamationMarks("Hello World!"));
 		System.out.println(ContinuedFraction.continuedFraction(311, 144));
+		System.out.println(LargestRadialSum.largest(new int[]{1, 2, 3, 4}, 2));
 	}
 
 }
