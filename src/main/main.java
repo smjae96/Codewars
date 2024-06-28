@@ -131,6 +131,7 @@ import codewars_0624.sol.RemoveExclamationMark;
 import codewars_0625.sol.ContinuedFraction;
 import codewars_0626.sol.LargestRadialSum;
 import codewars_0627.sol.JennySecretMessage;
+import codewars_0628.sol.BestTravel;
 public class main {
 
 	public static void main(String[] args) {
@@ -274,6 +275,7 @@ public class main {
 		System.out.println(ContinuedFraction.continuedFraction(311, 144));
 		System.out.println(LargestRadialSum.largest(new int[]{1, 2, 3, 4}, 2));
 		System.out.println(JennySecretMessage.greet("Johnny"));
+		System.out.println(BestTravel.chooseBestSum(179, 3, new ArrayList<>(Arrays.asList(50, 55, 56, 57, 58))));
 	}
 
 }
