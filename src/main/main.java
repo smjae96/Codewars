@@ -133,6 +133,7 @@ import codewars_0626.sol.LargestRadialSum;
 import codewars_0627.sol.JennySecretMessage;
 import codewars_0628.sol.BestTravel;
 import codewars_0629.sol.VowelCount;
+import codewars_0630.sol.ValidPhoneNumber;
 public class main {
 
 	public static void main(String[] args) {
@@ -278,6 +279,7 @@ public class main {
 		System.out.println(JennySecretMessage.greet("Johnny"));
 		System.out.println(BestTravel.chooseBestSum(179, 3, new ArrayList<>(Arrays.asList(50, 55, 56, 57, 58))));
 		System.out.println(VowelCount.getCount("o a kak ushakov lil vo kashu kakao"));
+		System.out.println(ValidPhoneNumber.validPhoneNumber("(123) 456-7890"));
 	}
 
 }
