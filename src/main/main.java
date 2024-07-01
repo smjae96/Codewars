@@ -134,6 +134,7 @@ import codewars_0627.sol.JennySecretMessage;
 import codewars_0628.sol.BestTravel;
 import codewars_0629.sol.VowelCount;
 import codewars_0630.sol.ValidPhoneNumber;
+import codewars_0701.sol.AreTheyTheSame;
 public class main {
 
 	public static void main(String[] args) {
@@ -280,6 +281,7 @@ public class main {
 		System.out.println(BestTravel.chooseBestSum(179, 3, new ArrayList<>(Arrays.asList(50, 55, 56, 57, 58))));
 		System.out.println(VowelCount.getCount("o a kak ushakov lil vo kashu kakao"));
 		System.out.println(ValidPhoneNumber.validPhoneNumber("(123) 456-7890"));
+		System.out.println(AreTheyTheSame.comp(new int[]{121, 144, 19, 161, 19, 144, 19, 11}, new int[]{121, 14641, 20736, 361, 25921, 361, 20736, 361}));
 	}
 
 }
