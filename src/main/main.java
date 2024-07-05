@@ -138,6 +138,7 @@ import codewars_0701.sol.AreTheyTheSame;
 import codewars_0702.sol.WeightForWeight;
 import codewars_0703.sol.CenturyFromYear;
 import codewars_0704.sol.PrinterErrors;
+import codewars_0705.sol.CountingDuplicates;
 public class main {
 
 	public static void main(String[] args) {
@@ -288,6 +289,7 @@ public class main {
 		System.out.println(WeightForWeight.orderWeight("56 65 74 100 99 68 86 180 90"));
 		System.out.println(CenturyFromYear.century(1705));
 		System.out.println(PrinterErrors.printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
+		System.out.println(CountingDuplicates.duplicateCount("indivisibility"));
 	}
 
 }
