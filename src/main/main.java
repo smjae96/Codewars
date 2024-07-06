@@ -139,6 +139,7 @@ import codewars_0702.sol.WeightForWeight;
 import codewars_0703.sol.CenturyFromYear;
 import codewars_0704.sol.PrinterErrors;
 import codewars_0705.sol.CountingDuplicates;
+import codewars_0706.sol.ProductOfConsecutiveFibNumbers;
 public class main {
 
 	public static void main(String[] args) {
@@ -290,6 +291,7 @@ public class main {
 		System.out.println(CenturyFromYear.century(1705));
 		System.out.println(PrinterErrors.printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
 		System.out.println(CountingDuplicates.duplicateCount("indivisibility"));
+		System.out.println(ProductOfConsecutiveFibNumbers.productFib(4895));
 	}
 
 }
