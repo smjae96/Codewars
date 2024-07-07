@@ -140,6 +140,7 @@ import codewars_0703.sol.CenturyFromYear;
 import codewars_0704.sol.PrinterErrors;
 import codewars_0705.sol.CountingDuplicates;
 import codewars_0706.sol.ProductOfConsecutiveFibNumbers;
+import codewars_0707.sol.SoManyPermutations;
 public class main {
 
 	public static void main(String[] args) {
@@ -292,6 +293,7 @@ public class main {
 		System.out.println(PrinterErrors.printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
 		System.out.println(CountingDuplicates.duplicateCount("indivisibility"));
 		System.out.println(ProductOfConsecutiveFibNumbers.productFib(4895));
+		System.out.println(SoManyPermutations.singlePermutations("abcde"));
 	}
 
 }
