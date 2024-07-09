@@ -142,6 +142,7 @@ import codewars_0705.sol.CountingDuplicates;
 import codewars_0706.sol.ProductOfConsecutiveFibNumbers;
 import codewars_0707.sol.SoManyPermutations;
 import codewars_0708.sol.Clock;
+import codewars_0709.sol.IsThisATriangle;
 public class main {
 
 	public static void main(String[] args) {
@@ -296,6 +297,7 @@ public class main {
 		System.out.println(ProductOfConsecutiveFibNumbers.productFib(4895));
 		System.out.println(SoManyPermutations.singlePermutations("abcde"));
 		System.out.println(Clock.Past(0, 1, 1));
+		System.out.println(IsThisATriangle.isTriangle(7,2,2));
 	}
 
 }
