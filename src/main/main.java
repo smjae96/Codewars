@@ -143,6 +143,8 @@ import codewars_0706.sol.ProductOfConsecutiveFibNumbers;
 import codewars_0707.sol.SoManyPermutations;
 import codewars_0708.sol.Clock;
 import codewars_0709.sol.IsThisATriangle;
+import codewars_0710.sol.TribonacciSequence;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -298,6 +300,7 @@ public class main {
 		System.out.println(SoManyPermutations.singlePermutations("abcde"));
 		System.out.println(Clock.Past(0, 1, 1));
 		System.out.println(IsThisATriangle.isTriangle(7,2,2));
+		System.out.println(TribonacciSequence.tribonacci(new double []{1,1,1},10));
 	}
 
 }
