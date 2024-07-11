@@ -144,6 +144,7 @@ import codewars_0707.sol.SoManyPermutations;
 import codewars_0708.sol.Clock;
 import codewars_0709.sol.IsThisATriangle;
 import codewars_0710.sol.TribonacciSequence;
+import codewars_0711.sol.GreedIsGood;
 
 public class main {
 
@@ -301,6 +302,7 @@ public class main {
 		System.out.println(Clock.Past(0, 1, 1));
 		System.out.println(IsThisATriangle.isTriangle(7,2,2));
 		System.out.println(TribonacciSequence.tribonacci(new double []{1,1,1},10));
+		System.out.println(GreedIsGood.greedy(new int [] {1,1,1,4,5}));
 	}
 
 }
