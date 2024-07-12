@@ -145,6 +145,7 @@ import codewars_0708.sol.Clock;
 import codewars_0709.sol.IsThisATriangle;
 import codewars_0710.sol.TribonacciSequence;
 import codewars_0711.sol.GreedIsGood;
+import codewars_0712.sol.AbbreviateATwoWordName;
 
 public class main {
 
@@ -303,6 +304,7 @@ public class main {
 		System.out.println(IsThisATriangle.isTriangle(7,2,2));
 		System.out.println(TribonacciSequence.tribonacci(new double []{1,1,1},10));
 		System.out.println(GreedIsGood.greedy(new int [] {1,1,1,4,5}));
+		System.out.println(AbbreviateATwoWordName.abbrevName("David Mendieta"));
 	}
 
 }
