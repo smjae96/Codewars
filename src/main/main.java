@@ -146,6 +146,7 @@ import codewars_0709.sol.IsThisATriangle;
 import codewars_0710.sol.TribonacciSequence;
 import codewars_0711.sol.GreedIsGood;
 import codewars_0712.sol.AbbreviateATwoWordName;
+import codewars_0713.sol.CountTheDivisorsOfANumber;
 
 public class main {
 
@@ -305,6 +306,7 @@ public class main {
 		System.out.println(TribonacciSequence.tribonacci(new double []{1,1,1},10));
 		System.out.println(GreedIsGood.greedy(new int [] {1,1,1,4,5}));
 		System.out.println(AbbreviateATwoWordName.abbrevName("David Mendieta"));
+		System.out.println(CountTheDivisorsOfANumber.numberOfDivisors(30));
 	}
 
 }
