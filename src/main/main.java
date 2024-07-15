@@ -148,6 +148,8 @@ import codewars_0711.sol.GreedIsGood;
 import codewars_0712.sol.AbbreviateATwoWordName;
 import codewars_0713.sol.CountTheDivisorsOfANumber;
 import codewars_0714.sol.MaximumMultiple;
+import codewars_0715.sol.EqualSidesOfAnArray;
+
 
 public class main {
 
@@ -309,6 +311,7 @@ public class main {
 		System.out.println(AbbreviateATwoWordName.abbrevName("David Mendieta"));
 		System.out.println(CountTheDivisorsOfANumber.numberOfDivisors(30));
 		System.out.println(MaximumMultiple.maxMultiple(7,17));
+		System.out.println(EqualSidesOfAnArray.findEvenIndex(new int[] {2824, 1774, -1490, -9084, -9696, 23094}));
 	}
 
 }
