@@ -149,6 +149,8 @@ import codewars_0712.sol.AbbreviateATwoWordName;
 import codewars_0713.sol.CountTheDivisorsOfANumber;
 import codewars_0714.sol.MaximumMultiple;
 import codewars_0715.sol.EqualSidesOfAnArray;
+import codewars_0716.sol.CountTheSmileyFaces;
+
 
 
 public class main {
@@ -312,6 +314,9 @@ public class main {
 		System.out.println(CountTheDivisorsOfANumber.numberOfDivisors(30));
 		System.out.println(MaximumMultiple.maxMultiple(7,17));
 		System.out.println(EqualSidesOfAnArray.findEvenIndex(new int[] {2824, 1774, -1490, -9084, -9696, 23094}));
+		List<String> a =  new ArrayList<String>();
+        a.add(":)"); a.add(":D"); a.add("X-}"); a.add("xo)"); a.add(":X"); a.add(":-3"); a.add(":3");
+        System.out.println(CountTheSmileyFaces.countSmileys(a));
 	}
 
 }
