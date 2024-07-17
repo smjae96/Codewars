@@ -150,6 +150,7 @@ import codewars_0713.sol.CountTheDivisorsOfANumber;
 import codewars_0714.sol.MaximumMultiple;
 import codewars_0715.sol.EqualSidesOfAnArray;
 import codewars_0716.sol.CountTheSmileyFaces;
+import codewars_0717.sol.TortoiseRacing;
 
 
 
@@ -317,6 +318,7 @@ public class main {
 		List<String> a =  new ArrayList<String>();
         a.add(":)"); a.add(":D"); a.add("X-}"); a.add("xo)"); a.add(":X"); a.add(":-3"); a.add(":3");
         System.out.println(CountTheSmileyFaces.countSmileys(a));
+		System.out.println(TortoiseRacing.race(720, 850, 70));
 	}
 
 }
