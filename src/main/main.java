@@ -151,6 +151,7 @@ import codewars_0714.sol.MaximumMultiple;
 import codewars_0715.sol.EqualSidesOfAnArray;
 import codewars_0716.sol.CountTheSmileyFaces;
 import codewars_0717.sol.TortoiseRacing;
+import codewars_0718.sol.PyramidArray;
 
 
 
@@ -319,6 +320,7 @@ public class main {
         a.add(":)"); a.add(":D"); a.add("X-}"); a.add("xo)"); a.add(":X"); a.add(":-3"); a.add(":3");
         System.out.println(CountTheSmileyFaces.countSmileys(a));
 		System.out.println(TortoiseRacing.race(720, 850, 70));
+		System.out.println(PyramidArray.pyramid(3));
 	}
 
 }
