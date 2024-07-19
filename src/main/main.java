@@ -152,7 +152,7 @@ import codewars_0715.sol.EqualSidesOfAnArray;
 import codewars_0716.sol.CountTheSmileyFaces;
 import codewars_0717.sol.TortoiseRacing;
 import codewars_0718.sol.PyramidArray;
-
+import codewars_0719.sol.WhatsAPerfectPowerAnyway;
 
 
 public class main {
@@ -321,6 +321,7 @@ public class main {
         System.out.println(CountTheSmileyFaces.countSmileys(a));
 		System.out.println(TortoiseRacing.race(720, 850, 70));
 		System.out.println(PyramidArray.pyramid(3));
+		System.out.println(WhatsAPerfectPowerAnyway.isPerfectPower(8));
 	}
 
 }
