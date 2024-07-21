@@ -154,6 +154,7 @@ import codewars_0717.sol.TortoiseRacing;
 import codewars_0718.sol.PyramidArray;
 import codewars_0719.sol.WhatsAPerfectPowerAnyway;
 import codewars_0720.sol.AreYouPlayingBanjo;
+import codewars_0721.sol.AreTheNumbersInOrder;
 
 public class main {
 
@@ -323,6 +324,7 @@ public class main {
 		System.out.println(PyramidArray.pyramid(3));
 		System.out.println(WhatsAPerfectPowerAnyway.isPerfectPower(8));
 		System.out.println(AreYouPlayingBanjo.areYouPlayingBanjo("rolf"));
+		System.out.println(AreTheNumbersInOrder.isAscOrder(new int[] {1, 4, 13, 97, 508, 1047, 20058}));
 	}
 
 }
