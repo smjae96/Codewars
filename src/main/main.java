@@ -329,7 +329,7 @@ public class main {
 		System.out.println(AreYouPlayingBanjo.areYouPlayingBanjo("rolf"));
 		System.out.println(AreTheNumbersInOrder.isAscOrder(new int[] {1, 4, 13, 97, 508, 1047, 20058}));
 		System.out.println(FindTheMissingLetter.findMissingLetter(new char[]{'a','b','c','d','f'}));
-		System.out.println(LastDigitOfALargeNumber.lastDigit(new BigInteger("2"), new BigInteger("7")));
+		System.out.println(LastDigitOfALargeNumber.lastDigit(new BigInteger("2"), new BigInteger("7")));  
 	}
 
 }
