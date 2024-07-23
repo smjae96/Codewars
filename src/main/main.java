@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.math.BigInteger;
 
 import codewars_0221.sol.Kata;
 import codewars_0222.sol.Solution;
@@ -156,6 +157,7 @@ import codewars_0719.sol.WhatsAPerfectPowerAnyway;
 import codewars_0720.sol.AreYouPlayingBanjo;
 import codewars_0721.sol.AreTheNumbersInOrder;
 import codewars_0722.sol.FindTheMissingLetter;
+import codewars_0723.sol.LastDigitOfALargeNumber;
 
 public class main {
 
@@ -327,6 +329,7 @@ public class main {
 		System.out.println(AreYouPlayingBanjo.areYouPlayingBanjo("rolf"));
 		System.out.println(AreTheNumbersInOrder.isAscOrder(new int[] {1, 4, 13, 97, 508, 1047, 20058}));
 		System.out.println(FindTheMissingLetter.findMissingLetter(new char[]{'a','b','c','d','f'}));
+		System.out.println(LastDigitOfALargeNumber.lastDigit(new BigInteger("2"), new BigInteger("7")));
 	}
 
 }
