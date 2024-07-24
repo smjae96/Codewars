@@ -158,6 +158,7 @@ import codewars_0720.sol.AreYouPlayingBanjo;
 import codewars_0721.sol.AreTheNumbersInOrder;
 import codewars_0722.sol.FindTheMissingLetter;
 import codewars_0723.sol.LastDigitOfALargeNumber;
+import codewars_0724.sol.ValidBraces;
 
 public class main {
 
@@ -330,6 +331,7 @@ public class main {
 		System.out.println(AreTheNumbersInOrder.isAscOrder(new int[] {1, 4, 13, 97, 508, 1047, 20058}));
 		System.out.println(FindTheMissingLetter.findMissingLetter(new char[]{'a','b','c','d','f'}));
 		System.out.println(LastDigitOfALargeNumber.lastDigit(new BigInteger("2"), new BigInteger("7")));  
+		System.out.println(ValidBraces.isValid("[(])"));
 	}
 
 }
