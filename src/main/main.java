@@ -159,6 +159,7 @@ import codewars_0721.sol.AreTheNumbersInOrder;
 import codewars_0722.sol.FindTheMissingLetter;
 import codewars_0723.sol.LastDigitOfALargeNumber;
 import codewars_0724.sol.ValidBraces;
+import codewars_0725.sol.WillYouMakeIt;
 
 public class main {
 
@@ -332,6 +333,7 @@ public class main {
 		System.out.println(FindTheMissingLetter.findMissingLetter(new char[]{'a','b','c','d','f'}));
 		System.out.println(LastDigitOfALargeNumber.lastDigit(new BigInteger("2"), new BigInteger("7")));  
 		System.out.println(ValidBraces.isValid("[(])"));
+		System.out.println(WillYouMakeIt.zeroFuel(100, 50, 1));
 	}
 
 }
